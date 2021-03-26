@@ -1,0 +1,47 @@
+.container-1r6BKw{
+    padding: 0;
+    height:var(--neb-topbar-height);
+    border-radius: var(--neb-border-radius2);
+    line-height: calc(var(--neb-topbar-height) - 5px);
+    background: transparent !important;
+    .children-19S4PO{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-border-radius1) 0 0 var(--neb-border-radius1);
+        height:var(--neb-topbar-height);
+        .iconWrapper-2OrFZ1 svg{
+            color:var(--header-primary);
+        }
+        .title-29uC1r{
+            font-size: var(--medium-font-size);
+            text-transform: capitalize;
+        }
+    }
+    .toolbar-1t6TWx{
+        border-radius: 0 var(--neb-border-radius1) var(--neb-border-radius1) 0;
+        margin-right: 250px;
+        padding: 8px;
+        background-color: var(--background-primary);
+        [href="https://support.discord.com"]{
+            display: none;
+        }
+        [aria-label="Update Ready!"]{
+            order: 1;
+        }
+        .search-36MZv-{
+            position: relative;
+            right:7px;
+            order: -1;
+            &::before{
+                content: '';
+                position: absolute;
+                right:-12px;
+                background-color: rgba(255, 255, 255, 0.06);
+                height:24px;
+                width:.8px;
+            }
+            .searchBar-3dMhjb{
+                border-radius: var(--neb-border-radius1);
+            }
+        }
+    }
+}

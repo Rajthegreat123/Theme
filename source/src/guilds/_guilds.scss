@@ -1,0 +1,69 @@
+.base-3dtUhz{
+    left: calc(var(--margin) + 70px);
+    margin-bottom: 10px;
+}
+.scroller-2TZvBN{contain:unset;}
+.wrapper-3NnKdC{
+    background-color: transparent;
+    margin: 0 var(--margin) var(--margin) var(--margin);
+    border-radius: var(--neb-border-radius1);
+    .scroller-1Bvpku{
+        background-color: transparent;
+        contain: none !important;
+        padding: 0 !important;
+        .guildSeparator-33mFX6{
+            border-radius: var(--neb-border-radius1);
+            width: 50px;
+        }
+        .tutorialContainer-30WoTp{
+            background-color: var(--background-primary);
+            border-radius: var(--neb-border-radius1) var(--neb-border-radius1) 0 0;
+            padding: 10px 0;
+            &:before{
+                content: '';
+                border-radius: 0 0 var(--neb-border-radius1) var(--neb-border-radius1);
+                background-color: var(--background-primary);
+                position: absolute;
+                bottom: -60px;
+                height:65px;
+                width:72px;
+            }
+        }
+        .circleIconButton-1QV--U{
+            background-color: var(--background-secondary-alt);
+            color:var(--header-primary);
+        }
+    }
+}
+.tutorialContainer-2sGCg9,
+[style="opacity: 1; height: 56px; transform: scale(1);"]{
+    padding: 7px 0 .04px 0;
+    margin-bottom: var(--margin);
+    border-radius: var(--neb-border-radius1);
+    background-color: var(--background-primary);
+    .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9{
+        background-color: var(--background-secondary-alt);
+        color:var(--header-primary);
+    }
+    .pill-3N7f9r,
+    .pill-1Z5PKm{
+        display: none;
+    }
+}
+[aria-label="Servers"]{
+    border-radius: var(--neb-border-radius1);
+    background-color: var(--background-primary);
+    padding: 10px 0;
+    margin-bottom: var(--margin);
+}
+
+
+.unreadMentionsIndicatorBottom-BXS58x{
+    bottom: 7px;
+    .bar-30k2ka{
+        opacity: 1;
+    }
+    .bar-30k2ka{
+        opacity: 1;
+    }
+}

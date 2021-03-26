@@ -1,0 +1,36 @@
+// Add your imported addons here
+@import url("https://nyri4.github.io/Discolored/main.css");
+@import url('https://raw.githack.com/Snapperito/Settings-Icons/main/source.css');
+
+
+
+
+// Addon Variables
+:root {
+--settings-icon-color: var(--interactive-normal);
+--settings-subscriptions: var(--interactive-normal);
+--settings-hypesquad: var(--interactive-normal);
+--settings-logout: #f04747;
+--settings-alt-focused: var(--interactive-normal);
+--settings-guild-premium: var(--interactive-normal);
+--settings-guild-delete: #f04747;
+}
+
+
+// Addon Contents //
+
+
+
+// CSS Snippets //
+:root { 
+    --avatar-radius: 20% /* if you want your avatar more or less round it's here */
+}
+
+/* Hide the activity icon in both user popouts */
+.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: none; }
+
+/* Hide the activity icon background in both user popouts */
+.avatarWrapperNormal-3wFMbf > .wrapper-3t9DeA > .mask-1l8v16 foreignObject, .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
+
+/* Fix the "View Profile" thing when u over your avatar */
+.avatarHint-1qgaV3 foreignObject { mask: none !important; border-radius: var(--avatar-radius); }
